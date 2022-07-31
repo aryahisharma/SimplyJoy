@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/638d441c12.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?      family=Cormorant+Garamond&family=Staatliches&display=swap" rel="stylesheet">
+    <title>simplyjoy</title>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              staat: "Staatliches",
+              garamond: "Cormorant Garamond"
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <div class="flex justify-between items-center px-4 py-4">
+      <div class="flex flex-col items-center">
+        <img src="./Images/happiness.png" 
+          width="90"
+          height="90" />
+        <div class="text-xl font-staat text-sky-600">
+          Simply<span class="text-amber-300">Joy</span>
+        </div> 
+      </div>
+      <i class="fa-solid fa-bars text-3xl text-orange-600 mr-4 sm:hidden"></i>
+      <div class="hidden sm:flex flex-1 justify-around text-xl font-garamond text-orange-600">
+        <a class="m-4" href="#mission">mission</a>
+        <a class="m-4" href="#team">team</a>
+        <a class="m-4" href="#testimonials">testimonials</a>  
+        <a class="m-4" href="#contact">contact</a>
+      </div>
+    </div>
+    <div class="flex flex-col items-center pb-12">
+      <div class="p-4 flex justify-center">
+        <img class="w-96" src="./Images/hero.jpg"/>
+      </div> 
+      <div class="font-staat text-lg text-orange-600 flex flex-col items-start mx-2">
+        <div class="text-3xl">
+          The best mental health resource for teens
+          </div>
+        <button class="bg-sky-600 text-white px-4 py-2 rounded-lg my-2">download the app now</button>
+      </div>
+    </div>
+
+    
+    <div class="bg-rose-50 text-black font-garamond flex flex-col items-center py-8">
+      <div id="mission" class="font-staat text-2xl mb-2">
+        Mission
+      </div>
+      <div class="mx-8 sm:mx-24">
+        We help teens navigate through their emotions, one step at a time. We provide teens with a free, high-quality wellness app. Our accessible resource is powered with an AI emotion detector and a forum designed specifically for teens, by teens. 
+      </div>
+      <img class="w-24 my-4" src="./Images/emotions.png"/>
+    </div>
+
+    
+    <div class="py-4 flex flex-col items-center pt-16">
+      <div id="features" class="font-staat text-2xl mb-2 text-orange-600">
+        Features
+      </div>
+      <div class="p-4 flex flex-col sm:flex-row text-indigo-600">
+        <div class="m-4">
+         <div class="m-8">
+           <div class="font-staat text-lg mb-2">
+             <i class="fa-solid fa-face-smile-beam text-xl text-red-600"></i> AI Mood Tracker
+           </div>
+           <div class="font-garamond text-black">
+             SimplyJoy has a powerful AI mood tracker that scans your face for emotions. It analyzes your facial expression to help you figure out what you're feeling. Plus, you can even keep track of those emotions in a minimimalistic, easy-to-use system.
+           </div>
+        </div>
+        <div class="m-8">
+           <div class="font-staat text-lg mb-2">
+             <i class="fa-solid fa-notebook text-xl text-orange-400"></i> Journal
+           </div>
+           <div class="font-garamond text-black">
+             An online journal to help you record your thoughts and emotions. Express your thoughts freely with a blank template, or use one of our prompts to help you get started.
+           </div>
+        </div>
+        </div>
+        <div class="m-4">
+        <div class="m-8">
+           <div class="font-staat text-lg mb-2">
+             <i class="fa-solid fa-comments text-yellow-300"></i> Forums
+           </div>
+           <div class="font-garamond text-black">
+             SimplyJoy also has forums for you to discuss mental health issues with other teens like you. It is a safe community to talk and relate to each other.
+           </div>
+        </div>
+        <div class="m-8">
+           <div class="font-staat text-lg mb-2">
+             <i class="fa-solid fa-circle-dollar text-green-600"></i> Free
+           </div>
+           <div class="font-garamond text-black">
+             SimplyJoy is completely, 100% free. It is also specifically designed for teens, by teens.
+           </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="py-10 flex flex-col items-center">
+      <div id="team" class="font-staat text-2xl mb-2 text-orange-600">
+        team
+      </div>
+      <div class="text-orange-600 flex flex-wrap justify-center">
+        <div class="flex flex-col items-center w-80 m-4">
+          <img class="w-40 rounded-full border-4 border-yellow-300" src="Images/aryahi.jpg" />
+          <div class="font-staat text-lg text-gray-600 mt-2">
+            Aryahi Sharma
+          </div>
+          <div class="font-staat text-lg my-2">
+            Founder and Chief Executive Officer
+          </div>
+          <div class="font-garamond text-black">
+            Hi, I'm Aryahi, and I am a rising sophomore at Saint Francis High School in Mountain View, California. I'm really passionate about connecting mental health, psychology, and neuroscience in a multidisciplinary way. In fact, I am planning on studying neuroscience and medicine in the future to become a doctor. In my free time, I like to read books, tutor neurodiverse children, and listen to music. (alternative/indie is my favorite!)  
+          </div>
+          <div class="font-staat text-xl my-8 text-indigo-600">
+            Now hiring! Positions open for Chief Operating Officer (COO), Chief Technology Officer (CTO), and Chief Marketing Officer (CMO). If you a passionate teenager interested in applying, you can fill out the application here:
+        </div>
+      </div>
+    </div>
+    </div>
+
+    
+    <div class="bg-rose-50 flex flex-col items-center py-8">
+      <div id="testimonials" class="font-staat text-2xl mb-2 text-black">
+        testimonials
+      </div>
+      <div class="flex flex-wrap justify-center">
+        <div class="bg-white rounded-lg w-72 flex flex-col items-center p-4 m-4">
+          <img class="w-24" src="./Images/lauren.jpg" />
+          <div class="font-staat text-indigo-600 text-lg">
+            Lauren P.
+          </div>
+          <div class="font-staat text-indigo-600">
+            San Francisco, CA
+            </div>
+          <div class="font-garamond text-orange-600">
+            <i class="fa-solid fa-quote-left text-indigo-600"></i> SimplyJoy has completely changed my perspective of emotions and mental health. Mental health was something that I used to fear, but now I feel that I am truly in touch with myself. I just love the AI emotion scanner! It really helps me when I am struggling to get a grasp of what my emotions really are. <i class="fa-solid fa-quote-right text-indigo-600"></i>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg w-72 flex flex-col items-center p-4 m-4">
+          <img class="w-24" src="./Images/adam.png" />
+          <div class="font-staat text-indigo-600 text-lg">
+            Adam G.
+          </div>
+          <div class="font-staat text-indigo-600">
+            Boston, MA
+            </div>
+          <div class="font-garamond text-orange-600">
+            <i class="fa-solid fa-quote-left text-indigo-600"></i> Writing isn't really my thing, so I'm super glad that SimplyJoy has an audio journal feature. Plus, if I do feel like typing out my thoughts, the journal prompts are helpful when I don't know how to start. In the past few months of using this app, I am able to better manage my anxiety levels! <i class="fa-solid fa-quote-right text-indigo-600"></i>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg w-72 flex flex-col items-center p-4 m-4">
+          <img class="w-24" src="./Images/liz.png" />
+          <div class="font-staat text-indigo-600 text-lg">
+            Liz S.
+          </div>
+          <div class="font-staat text-indigo-600">
+            Austin, TX
+            </div>
+          <div class="font-garamond text-orange-600">
+            <i class="fa-solid fa-quote-left text-indigo-600"></i> I've always felt like I wanted to talk to other teens about my mental health issues. By using SimplyJoy's forums, I have found a safe space for me to do so. I just love how I can relate to other teens on similar topics! The forums, combined with the journal and mood tracker, makes it an awesome app that my friends and I use. <i class="fa-solid fa-quote-right text-indigo-600"></i>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg w-72 flex flex-col items-center p-4 m-4">
+          <img class="w-24" src="./Images/asher.png" />
+          <div class="font-staat text-indigo-600 text-lg">
+            Asher C.
+          </div>
+          <div class="font-staat text-indigo-600">
+            Chigago, IL
+            </div>
+          <div class="font-garamond text-orange-600">
+            <i class="fa-solid fa-quote-left text-indigo-600"></i> I cannot thank SimplyJoy enough for the impact it has on my life so far. I usually deal with stress, but I didn't know what the cause of it was. I love the mood tracker because it's so easy to use ... all I have to do is hold up the camera to my face. By tracking my mood daily, I finally figured out the stressors that were negatively impacting my life. Thank you! <i class="fa-solid fa-quote-right text-indigo-600"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    
+    <div class="py-8 flex flex-col items-center">
+      <div id="faq" class="font-staat text-orange-600 text-2xl">
+        Frequently Asked Questions
+      </div>
+      <div class="font-garamond">
+        <div class="border-l-4 border-red-500 p-2 mx-8 my-4">
+          <div class="my-2 text-xl text-indigo-700">
+            How do I download SimplyJoy?
+          </div>
+          <div class="my-2 text-indigo-600">
+            Search up "SimplyJoy" in the iOS App Store, or just click on the button at the top of the website, which will take you directly to the App Store.
+          </div>
+        </div>
+        <div class="border-l-4 border-yellow-300 p-2 mx-8 my-4">
+          <div class="my-2 text-xl text-indigo-700">
+            Do I need to create an account?
+          </div>
+          <div class="my-2 text-indigo-600">
+            Yes. An account will keep track of all the information you input, and it helps with safety to ensure that all SimplyJoy users come from a safe background. Especially due to the forums, background checks are extremely important. 
+          </div>
+        </div>
+        <div class="border-l-4 border-green-500 p-2 mx-8 my-4">
+          <div class="my-2 text-xl text-indigo-700">
+            What if I don't want to use the AI part of the mood tracker?
+          </div>
+          <div class="my-2 text-indigo-600">
+            No problem! There is an option below the AI emotion recognition that allows you to manually input a mood. Any time you feel that you want to record a mood yourself, just use that option to do so. 
+          </div>
+        </div>
+        <div class="border-l-4 border-teal-500 p-2 mx-8 my-4">
+          <div class="my-2 text-xl text-indigo-700">
+            What is the cost? Are there any in-app purchases?
+          </div>
+          <div class="my-2 text-indigo-600">
+            SimplyJoy is 100% free for any teen to use. There are no in-app purchases, as we believe that resources for mental health should be equal and accessible for everyone.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex justify-center py-8">
+      <div class="rounded-lg border border-orange-600 shadow-md flex flex-col bg-yellow-100">
+        <div id="contact" class="font-staat text-xl text-black bg-gradient-to-r from-indigo-400 to-indigo-200 px-4 py-2 rounded-t-lg">
+          contact us
+        </div>
+        <div class="mt-2">
+          <input placeholder="first name" class="p-1 m-2 border border-orange-600" />
+          <input placeholder="last name" class="p-1 m-2 border border-orange-600" />
+        </div>
+        <input placeholder="email" class="p-1 m-2 border border-orange-600" />
+        <input placeholder="your question" class="p-1 m-2 border border-orange-600" />
+        <button class="bg-indigo-600 px-4 py-2 text-white rounded-lg m-2">
+          <i class="fa-solid fa-paper-plane-top mr-1"></i> send
+        </button>
+      </div>
+    </div>
+
+    <div class="bg-rose-50 flex text-orange-700 font-garamond p-12 text-sm justify-between">
+      <div class="flex">
+        <div class="flex flex-col items-center mr-8">
+        <img src="./Images/happiness.png" 
+          width="90"
+          height="90" />
+        <div class="text-xl font-staat text-sky-600">
+          Simply<span class="text-amber-300">Joy</span>
+        </div> 
+      </div>
+      <div class="flex flex-col">
+        <a href="#mission" class="py-1 px-2">mission</a>
+        <a href="#features" class="py-1 px-2">features</a>
+        <a href="#team" class="py-1 px-2">team</a>
+      </div>
+      <div class="flex flex-col">
+        <a href="#testimonials" class="py-1 px-2">testimonials</a>
+        <a href="#faq" class="py-1 px-2">FAQ</a>
+      </div>
+      </div>
+      <div class="text-2xl">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-solid fa-envelope"></i>
+      </div>
+    </div>
+  </body>
+</html>
